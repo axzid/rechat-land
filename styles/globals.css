@@ -5,3 +5,7 @@
 body{
     background-color: rgba(238, 242, 255, 1);
 }
+/* create smooth scroll */
+html{
+    scroll-behavior: smooth;
+}

@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <>
-      <div className="container mx-auto">
+      <div className="container mx-auto" id="home">
         <div className="grid grid-cols-2 mt-24">
           <div>
             <h1 className="text-sm text-blue-500 py-4">CHAT N’ RECHAT</h1>

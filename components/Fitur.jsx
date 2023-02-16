@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Fitur() {
   return (
     <>
-      <div className="container mx-auto mt-16 pb-52">
+      <div className="container mx-auto mt-16 pb-52 scroll-smooth" id="fitur">
         <div className="text-center">
           <h4 className="text-sm py-6">NGGAK HARUS SIH SEBENARNYA</h4>
           <h3 className="text-2xl pb-4">Kenapa Harus Pakai Chat N’ Rechat?</h3>

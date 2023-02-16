@@ -8,9 +8,15 @@ export default function Header() {
           <Image src="/images/logo.png" width={35} height={35} />
           <ul className="flex justify-between gap-14">
             <li className="font-medium">Beranda</li>
-            <li>Fitur-Fitur</li>
-            <li>Teknologi</li>
-            <li>FAQ</li>
+            <li>
+              <a href="#fitur">Fitur-Fitur</a>
+            </li>
+            <li>
+              <a href="#teknologi">Teknologi</a>
+            </li>
+            <li>
+              <a href="#faq">FAQ</a>
+            </li>
           </ul>
           <a
             href="/"
