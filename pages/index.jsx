@@ -1,4 +1,6 @@
 import Head from "next/head";
+import Download from "../components/Download";
+import Faq from "../components/Faq";
 import Fitur from "../components/Fitur";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
@@ -15,6 +17,8 @@ export default function index(params) {
       <Hero />
       <Fitur />
       <Teknologi />
+      <Download />
+      <Faq />
     </>
   );
 }
